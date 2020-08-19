@@ -7,7 +7,7 @@ comments: false
 ---
 
 ## Experience
-**26-01-12018 – PRESENT, MEMBER TECHNICAL STAFF, ZOHO**
+**2018 – PRESENT, MEMBER TECHNICAL STAFF, ZOHO**
 
 As a Data Engineer, I gained and understood the knowledge of Hadoop and Spark and how the underlying is working.
 Implemented a message queue using RabbitMQ for training Machine Learning models in an orderly fashion.

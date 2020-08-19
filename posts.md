@@ -1,0 +1,13 @@
+---
+layout: page
+title: Posts
+---
+
+{% for post in site.posts %}
+<article class="post-item">
+  <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
+  <h4 class="post-item-title">
+    <a href="{{ post.url }}">{{ post.title | escape }}</a>
+  </h4>
+</article>
+{% endfor %}

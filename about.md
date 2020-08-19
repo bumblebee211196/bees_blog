@@ -1,16 +1,22 @@
 ---
-title: Colophon
+title: Sathish Babu
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: Coder by day and game by night.
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+I'm a **DataOps Engineer** at **Zoho Corporation**. I work on project closely related to **Machine Learning**, **Big 
+Data**, **Distributed Systems** and **Message Queues** and experienced in **Python**, **Java** and **Scala**. Being the 
+enthusiastic person I am, always looking for challenging problems/opportunities to solve and learn new things. This 
+curiosity of finding and solving challenging things attracts me towards competitive coding. Apart from this, I enjoy 
+gaming to a great extent during my leisure. I try to balance both these things but at times one overtake the other. I 
+am quite adventurous and quite an explorer I must say, once happened to trek the [Triund](https://en.wikipedia.org/wiki/Triund) summit (2800 M). Being a foodie, 
+I often work on sharpening my cooking skills.
 
-If you have a question about him or else, just send a letter to him.
+If you have a question about me or else, just send a letter.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+You can [report](http://github.com/bumblebee211196/bees_blog/issues/new) if there is any broken link(s) or somethings else.
 
 ##### may u needs ✨
 

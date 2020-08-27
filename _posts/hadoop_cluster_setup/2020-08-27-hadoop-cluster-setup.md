@@ -17,14 +17,12 @@ Hadoop can be set up in three modes:
 * **Local(standalone) Mode** - The Standalone mode doesn't really use any of the features of Hadoop. This type of 
 configuration is mainly used in debugging. This mode doesn't use HDFS. Instead, it uses the local file system. This 
 mode doesn't require any change in the configuration files.
-
-* Pseudo-Distributed Mode - In this mode, the Hadoop daemons Namenode and Datanode run on the same machine. It is 
+* **Pseudo-Distributed Mode** - In this mode, the Hadoop daemons Namenode and Datanode run on the same machine. It is 
 also known as Single Node Cluster. Such a configuration is mainly used while testing when we don’t need to think about 
 the resources and other users sharing the resource.In this architecture, a separate JVM is spawned for every Hadoop 
 components as they could communicate across network sockets, effectively producing a fully functioning and optimized 
 mini-cluster on a single host.
-
-* Fully-Distributed Mode - This is the production model of Hadoop.Here data will be distributed across several nodes 
+* **Fully-Distributed Mode** - This is the production model of Hadoop.Here data will be distributed across several nodes 
 and processing will be done on each node. Master and Slave services will be running on the separate nodes in 
 fully-distributed Hadoop Mode.
 

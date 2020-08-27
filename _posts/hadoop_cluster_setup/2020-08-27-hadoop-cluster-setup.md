@@ -1,7 +1,7 @@
 ---
 title: Hadoop Cluster Setup
 date: 2020-08-27 18:26:00 +05:30
-tags: [programming, daily-coding-problems]
+tags: [DataEngineering, hadoop, hdfs]
 ---
 
 ## What is Hadoop?

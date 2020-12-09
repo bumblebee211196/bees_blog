@@ -83,3 +83,5 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-postfiles
+
+theme: jekyll-theme-minimal

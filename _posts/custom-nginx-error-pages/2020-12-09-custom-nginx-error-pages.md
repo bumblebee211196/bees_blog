@@ -1,6 +1,6 @@
 ---
 title: Custom NGINX Error Pages
-date: 2020-08-27 18:26:00 +05:30
+date: 2020-12-09 11:00:00 +05:30
 tags: [web, nginx]
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Sathish Babu
+title: {{ site.author.name }}
 permalink: /about/
 layout: page
 excerpt: Coder by day and game by night.
@@ -18,7 +18,7 @@ If you have a question about me or else, just send a letter.
 
 You can [report](http://github.com/bumblebee211196/bees_blog/issues/new) if there is any broken link(s) or somethings else.
 
-##### may u needs ✨
+##### May u needs ✨
 
 - {{ site.author.email }}
 - github.com/{{ site.author.github }}

@@ -24,7 +24,7 @@ author:
   avatar: /assets/img/avatar.jpg
 
 # Url settings
-url: "https://klise.now.sh"
+url: "https://bumblebee2196.netlify.app"
 baseurl:
 permalink: /:title/
 google_analytics:

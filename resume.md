@@ -9,7 +9,7 @@ comments: false
 ## Experience
 **2018 – PRESENT, MEMBER TECHNICAL STAFF, ZOHO**
 
-As a Data Engineer, I gained and understood the knowledge of Hadoop and Spark and how the underlying is working.
+I gained and understood the knowledge of Hadoop and Spark and how the underlying is working.
 Implemented a message queue using RabbitMQ for training Machine Learning models in an orderly fashion.
 * Developed a wrapper over it to help developers publish and consume messages with ease. 
 * Developed a custom authentication mechanism.
@@ -17,8 +17,8 @@ Implemented a message queue using RabbitMQ for training Machine Learning models 
 Implemented Scalastyle custom rules and integrated it with eclipse IDE for linting in Scala.
 Studied and implemented Akka actors and used it to solve concurrency issues. Developed a wrapper over it for ease of use for developers.
 
-As a DevOps engineer, I studied and understood the process of Continuous Integration and Continuous Deployment.
-Responsible for developing and maintaining the python microservice.
+I studied and understood the process of Continuous Integration and Continuous Deployment.
+Responsible for developing and maintaining the microservice using Python for my Team.
 * Developed a digital signature authentication mechanism as a part of the security layer for the microservice.
 * Developed a request validator as a part of the security layer for the microservice.
 

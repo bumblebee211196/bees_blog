@@ -64,5 +64,8 @@ location /504.json{
 ```
 
 ### Useful Links
-1. https://nginx.org/en/docs/
-2. https://nginx.org/en/docs/http/ngx_http_core_module.html#error_page
+1. [https://nginx.org/en/docs/][1]
+2. [https://nginx.org/en/docs/http/ngx_http_core_module.html#error_page][2]
+
+[1]: https://nginx.org/en/docs/
+[2]: https://nginx.org/en/docs/http/ngx_http_core_module.html#error_page

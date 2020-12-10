@@ -140,7 +140,7 @@ cv2.destroyAllWindows()
 
 ![Scanned](./Scanned.png "Scanned")
 
-Code - [link][https://github.com/bumblebee211196/DocumentScanner]
+Github [code](https://github.com/bumblebee211196/DocumentScanner).
 
 [1]: https://docs.python.org/3/library/argparse.html
 [2]: https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html#read-an-image

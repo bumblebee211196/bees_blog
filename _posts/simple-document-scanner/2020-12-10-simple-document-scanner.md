@@ -27,7 +27,7 @@ Create a virtual environment and install these packages.
 
 One way of taking the images as input for our program is through command-line argument and this can be achieved by using the [`argparse`][1] module.
 
-```
+```python
 import argparse
 
 parser = argparse.ArgumentParser()
@@ -41,7 +41,7 @@ The above code will help us get the image as input from the user. Now with the i
 To find the edges of our document we will use the Canny edge detection algorithm. Before, that we must convert our image to grayscale. That helps in identifying the edges more easily
 and remove any noise by smoothening it
 
-```
+```python
 image = cv2.imread(image_path)
 ratio = image.shape[0] / 500.0
 orig = image.copy()
@@ -65,7 +65,7 @@ cv2.destroyAllWindows()
 Contour is a simple curve joining all the continuous points having same color or intensity.
 From the edged image we can find the contours and display it in our original image. While finding contours, we may find contours other than the document itself, and we must make sure correctly identify the document's contour.
 
-```
+```python
 contours = cv2.findContours(edged.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
 contours = imtutils.grab_contours(contours)
 contours = sorted(contours, key=cv2.contourArea, reverse=True)
@@ -92,7 +92,7 @@ Then from the contours we approximate each contour in a loop for a closed shape.
 
 Once we get the approximates, we can identify the four corner points of the shape. We write a function to achieve this.
 
-```
+```python
 def order_points(pts):
     """Order the given set of coordinates as top-left, top-right, bottom-right and bottom-left"""
     rect = np.zeros((4, 2), dtype='float32')
@@ -111,7 +111,7 @@ The one with the minimum difference must be the `top-right` and the maximum woul
 
 Once we get the four points, we can obtain the top-view by using the [`getPerspectiveTransform`][4] method.
 
-```
+```python
 rect = order_points(pts)
 tl, tr, br, bl = rect
 

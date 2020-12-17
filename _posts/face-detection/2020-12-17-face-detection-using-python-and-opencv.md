@@ -1,6 +1,6 @@
 ---
 title: Face Detection using Python and OpenCV
-date: 2020-12-09 11:00:00 +05:30
+date: 2020-12-17 11:00:00 +05:30
 tags: [Python, OpenCV, ImageProcessing, FaceDetection]
 ---
 

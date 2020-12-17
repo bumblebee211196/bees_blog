@@ -91,6 +91,48 @@ cv2.destroyAllWindows()
 
 ![Output Image](./Output.png "Output Image")
 
+### Detecting faces in real-time
+
+We follow the same process but instead of reading an image we read the frames from the camera, and we make predictions on each of those frames and display them in real time
+
+```python
+net = cv2.dnn.readNetFromCaffe('resources/deploy.prototxt.txt',
+                               'resources/res10_300x300_ssd_iter_140000.caffemodel')
+vc = VideoCapture(0)
+while:
+    _, image = vc.read()
+    (heigth, width) = image.shape[:2]
+    blob = cv2.dnn.blobFromImage(image=cv2.resize(image, (300, 300)), size=(300, 300), scalefactor=1.0,
+                                 mean=(104.0, 177.0, 123.0))
+    net.setInput(blob)
+    detections = net.forward()
+    for i in range(detections.shape[2]):
+        confidence = detections[0, 0, i, 2]
+        if confidence > 0.5:
+            box = detections[0, 0, i, 3:7] * np.array([width, heigth, width, heigth])
+            (x1, y1, x2, y2) = box.astype('int')
+            text = f'{confidence * 100 :.2f}%'
+            cv2.rectangle(image, (x1, y1), (x2, y2), (255, 0, 0), 1)
+            if y1 - 10 > 10:
+                x, y = x1 + 5, y1 - 10
+            else:
+                x, y = x1 + 5, y1 + 10
+            y = y1 - 10 if y1 - 10 > 10 else y1 + 10
+            cv2.putText(image, text, (x, y), cv2.FONT_HERSHEY_DUPLEX, 0.55, (0, 0, 255), 1)
+    cv2.imshow('Ouput', image)
+    key = cv2.waitKey(1)
+    if key & 0xFF == ord('q'):
+        break
+vc.release()
+cv2.destroyAllWindows()
+```
+
+We can also provide video file path to the `VideoCapture` class.
+
+```python
+vc = VideoCapture('/path/to/the/video/file')
+```
+
 Github [code][code]
 
 [model]: https://github.com/bumblebee211196/FaceDetection/blob/main/resources/res10_300x300_ssd_iter_140000.caffemodel

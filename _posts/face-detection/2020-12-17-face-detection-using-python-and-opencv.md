@@ -15,7 +15,7 @@ Once we have the above files, we can start building the application
 
 ### Let's get started
 
-The following packages are required to build our document scanner:
+The following packages are required to build our face-detection application:
 
 ```text
 imutils

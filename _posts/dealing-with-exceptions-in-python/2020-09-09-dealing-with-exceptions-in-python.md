@@ -1,5 +1,5 @@
 ---
-title: Dealing with Exceptions
+title: Dealing with Exceptions in Python
 date: 2020-09-09 11:00:00 +05:30
 tags: [Python]
 ---

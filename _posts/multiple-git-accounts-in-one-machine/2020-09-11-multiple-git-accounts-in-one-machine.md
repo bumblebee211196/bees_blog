@@ -21,7 +21,7 @@ But this can become very much tedious if one is constantly working between offic
 
 Git's `includeIf` to the rescue.
 
-Say we maintain all our work related repositories in our `Work` folder and similarly all our Personal repositories in the `Personal` folder, we can use different git configurations and include them based on some conditions
+Say we maintain all our work related repositories in our `Work` folder and similarly all our Personal repositories in the `Personal` folder, we can use different git configurations and include them based on some conditions.
 
 First create a git config for your `Work` environment and name `.gitconfig-work`
 
